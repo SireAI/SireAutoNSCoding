@@ -1,0 +1,6 @@
+framework module SireAutoNSCoding {
+  umbrella header "SireAutoNSCoding-umbrella.h"
+
+  export *
+  module * { export * }
+}

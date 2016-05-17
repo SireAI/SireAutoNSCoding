@@ -1,0 +1,16 @@
+PODS:
+  - SireAutoNSCoding (0.1.0)
+
+DEPENDENCIES:
+  - SireAutoNSCoding (from `../`)
+
+EXTERNAL SOURCES:
+  SireAutoNSCoding:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SireAutoNSCoding: 4f9dd2ef51dc1d1bbfdd9843513723a3427933a2
+
+PODFILE CHECKSUM: d62764af04d2de24020fd667719c2b365153fa27
+
+COCOAPODS: 1.0.0

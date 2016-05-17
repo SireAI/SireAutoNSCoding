@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55208F1D1CEB252E008330E3 /* MallInfor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55208F1C1CEB252E008330E3 /* MallInfor.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		32FF1047C71379199270231B /* Pods-SireAutoNSCoding_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SireAutoNSCoding_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SireAutoNSCoding_Tests/Pods-SireAutoNSCoding_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4B13635B1CA1B3C8CC7B52BC /* Pods-SireAutoNSCoding_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SireAutoNSCoding_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SireAutoNSCoding_Example/Pods-SireAutoNSCoding_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4ED6E54B320E210746FE9756 /* Pods-SireAutoNSCoding_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SireAutoNSCoding_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SireAutoNSCoding_Example/Pods-SireAutoNSCoding_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55208F1C1CEB252E008330E3 /* MallInfor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MallInfor.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SireAutoNSCoding_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SireAutoNSCoding_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		607FACD21AFB9204008FA782 /* Example for SireAutoNSCoding */ = {
 			isa = PBXGroup;
 			children = (
+				55208F1C1CEB252E008330E3 /* MallInfor.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -361,6 +364,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				55208F1D1CEB252E008330E3 /* MallInfor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

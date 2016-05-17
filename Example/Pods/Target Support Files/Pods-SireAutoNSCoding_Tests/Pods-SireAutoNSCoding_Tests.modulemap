@@ -1,0 +1,6 @@
+framework module Pods_SireAutoNSCoding_Tests {
+  umbrella header "Pods-SireAutoNSCoding_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

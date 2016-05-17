@@ -7,18 +7,35 @@
 //
 
 import UIKit
-
+import SireAutoNSCoding
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		// raw data
+		let oldInfor = MallInfor()
+		print("oldeInfor:\n \(oldInfor.description)")
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+		// change some value
+		oldInfor.Code = "100000"
+		oldInfor.Msg = "what a new day"
+		oldInfor.ExceptionMsg = "no error"
+		oldInfor.Result = SeckillListEntity()
+		oldInfor.Result!.BrandCountryLogo = "world china"
+
+		// save to disk
+		oldInfor.storeToDisk()
+
+		// recover data
+		let newInfor = MallInfor.recoverFromDisk("\(MallInfor.self)")
+
+		print("newInfor:\n \(newInfor!.description)")
+	}
+
+	override func didReceiveMemoryWarning() {
+		super.didReceiveMemoryWarning()
+		// Dispose of any resources that can be recreated.
+	}
 
 }
 
