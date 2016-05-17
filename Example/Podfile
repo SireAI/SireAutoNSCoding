@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SireAutoNSCoding_Example' do
+  pod 'SireAutoNSCoding', :path => '../'
+
+  target 'SireAutoNSCoding_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
